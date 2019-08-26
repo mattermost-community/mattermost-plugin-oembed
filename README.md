@@ -2,4 +2,4 @@
 
 This plugin renders oEmbed previews for the links that support them.
 
-![oEmbed example](./oEmbed-example.png)
+![oEmbed example](./public/oEmbed-example.png)

@@ -1,5 +1,5 @@
 import providers from './providers.json';
-import providerDimensions from './provider-dimensions.json'
+import providerDimensions from './provider-dimensions.json';
 import {blacklist, formatRegexp} from './constants';
 
 export function getProviderForUrl(url) {
@@ -12,7 +12,6 @@ export function getProviderForUrl(url) {
             return reg.test(url);
         });
 
-
         if (match &&
             providerDimensions.some(({name}) => name === provider.provider_name) &&
             !blacklist.some((name) => name === provider.provider_name)) {
@@ -24,7 +23,7 @@ export function getProviderForUrl(url) {
 }
 
 export function getDimensionsForProvider(providerName) {
-    return providerDimensions.find(p => p.name === providerName)
+    return providerDimensions.find(({name}) => name === providerName);
 }
 
 export function getOEmbedUrl(url) {

@@ -1,13 +1,19 @@
+import PropTypes from 'prop-types';
 import React, {Component} from 'react';
 
 import {id as pluginId} from './manifest';
 import {getDimensionsForProvider, getOEmbedUrl, getProviderForUrl} from './utils';
 
 export default class OEmbed extends Component {
+    static propTypes = {
+        embed: PropTypes.shape({
+            url: PropTypes.string.isRequired,
+        }),
+    };
+
     constructor(props) {
         super(props);
 
-        // eslint-disable-next-line react/prop-types
         this.oembedUrl = getOEmbedUrl(this.props.embed.url);
         const provider = getProviderForUrl(this.props.embed.url);
         this.dimensions = getDimensionsForProvider(provider.provider_name);
@@ -40,10 +46,10 @@ export default class OEmbed extends Component {
         const {html, thumbnailUrl} = this.state;
         const style = {
             width: `${this.dimensions.width}px`,
-            height: `${this.dimensions.height}px`
-        }
+            height: `${this.dimensions.height}px`,
+        };
 
-        let inner
+        let inner;
         if (html) {
             inner = <div dangerouslySetInnerHTML={{__html: html}}/>;
         }
@@ -53,9 +59,7 @@ export default class OEmbed extends Component {
         }
 
         return (
-            <div style={style}>
-              {inner}
-            </div>
+            <div style={style}>{inner}</div>
         );
     }
 }

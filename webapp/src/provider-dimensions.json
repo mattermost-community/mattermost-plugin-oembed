@@ -1,0 +1,657 @@
+[
+  {
+    "name": "23HQ",
+    "width": 606,
+    "height": 756
+  },
+  {
+    "name": "GIPHY",
+    "width": 650,
+    "height": 491
+  },
+  {
+    "name": "Infoveave",
+    "width": 600,
+    "height": 400
+  },
+  {
+    "name": "Injurymap",
+    "width": 610,
+    "height": 400
+  },
+  {
+    "name": "Altru",
+    "width": 480,
+    "height": 640
+  },
+  {
+    "name": "amCharts Live Editor",
+    "width": 600,
+    "height": 400
+  },
+  {
+    "name": "Archivos",
+    "width": 720,
+    "height": 500
+  },
+  {
+    "name": "AudioClip",
+    "width": 480,
+    "height": 160
+  },
+  {
+    "name": "Audiomack",
+    "width": 649,
+    "height": 352
+  },
+  {
+    "name": "Backtracks",
+    "width": 100,
+    "height": 520
+  },
+  {
+    "name": "Beautiful.AI",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "Blackfire.io",
+    "width": 800,
+    "height": 600
+  },
+  {
+    "name": "Byzart Project",
+    "width": 480,
+    "height": 320
+  },
+  {
+    "name": "Ceros",
+    "width": 1280,
+    "height": 3000
+  },
+  {
+    "name": "ChartBlocks",
+    "width": 800,
+    "height": 450
+  },
+  {
+    "name": "chirbit.com",
+    "width": 380,
+    "height": 120
+  },
+  {
+    "name": "CircuitLab",
+    "width": 540,
+    "height": 405
+  },
+  {
+    "name": "Clyp",
+    "width": 720,
+    "height": 265
+  },
+  {
+    "name": "CodeHS",
+    "width": 1200,
+    "height": 650
+  },
+  {
+    "name": "Codepoints",
+    "width": 640,
+    "height": 640
+  },
+  {
+    "name": "CodeSandbox",
+    "width": 1000,
+    "height": 500
+  },
+  {
+    "name": "Commaful",
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Coub",
+    "width": 639,
+    "height": 479
+  },
+  {
+    "name": "Dailymotion",
+    "width": 480,
+    "height": 360
+  },
+  {
+    "name": "Deseretnews.com",
+    "width": 320,
+    "height": 676
+  },
+  {
+    "name": "Deviantart.com",
+    "width": 900,
+    "height": 600
+  },
+  {
+    "name": "Didacte",
+    "width": 560,
+    "height": 418
+  },
+  {
+    "name": "Digiteka",
+    "width": 300,
+    "height": 250
+  },
+  {
+    "name": "DocDroid",
+    "width": 800,
+    "height": 600
+  },
+  {
+    "name": "Dotsub",
+    "width": 420,
+    "height": 347
+  },
+  {
+    "name": "DTube",
+    "width": 480,
+    "height": 270
+  },
+  {
+    "name": "eduMedia",
+    "width": 550,
+    "height": 440
+  },
+  {
+    "name": "EgliseInfo",
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "Ethfiddle",
+    "width": 300,
+    "height": 300
+  },
+  {
+    "name": "Facebook (Video)",
+    "width": 500,
+    "height": 280
+  },
+  {
+    "name": "Fader",
+    "width": 1200,
+    "height": 600
+  },
+  {
+    "name": "Faithlife TV",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "FITE",
+    "width": 480,
+    "height": 270
+  },
+  {
+    "name": "Flat",
+    "width": 800,
+    "height": 400
+  },
+  {
+    "name": "Flickr",
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "name": "Flourish",
+    "width": 700,
+    "height": 575
+  },
+  {
+    "name": "Fontself",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "name": "Geograph Britain and Ireland",
+    "width": 640,
+    "height": 480
+  },
+  {
+    "name": "Getty Images",
+    "width": 395,
+    "height": 594
+  },
+  {
+    "name": "Gfycat",
+    "width": 708,
+    "height": 382
+  },
+  {
+    "name": "GloriaTV",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "GT Channel",
+    "width": 800,
+    "height": 150
+  },
+  {
+    "name": "Gyazo",
+    "width": 1248,
+    "height": 1552
+  },
+  {
+    "name": "hearthis.at",
+    "width": 100,
+    "height": 150
+  },
+  {
+    "name": "HuffDuffer",
+    "width": 290,
+    "height": 24
+  },
+  {
+    "name": "Hulu",
+    "width": 512,
+    "height": 296
+  },
+  {
+    "name": "iFixit",
+    "width": 1000,
+    "height": 730
+  },
+  {
+    "name": "Indaco",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "Infogram",
+    "width": 550,
+    "height": 600
+  },
+  {
+    "name": "Issuu",
+    "width": 525,
+    "height": 324
+  },
+  {
+    "name": "KakaoTv",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "Kickstarter",
+    "width": 480,
+    "height": 270
+  },
+  {
+    "name": "Kidoju",
+    "width": 480,
+    "height": 300
+  },
+  {
+    "name": "Kit",
+    "width": 320,
+    "height": 320
+  },
+  {
+    "name": "Kitchenbowl",
+    "width": 1936,
+    "height": 1936
+  },
+  {
+    "name": "Knacki",
+    "width": 264,
+    "height": 264
+  },
+  {
+    "name": "Livestream",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "Ludus",
+    "width": 960,
+    "height": 540
+  },
+  {
+    "name": "MathEmbed",
+    "width": 400,
+    "height": 200
+  },
+  {
+    "name": "Matterport",
+    "width": 640,
+    "height": 480
+  },
+  {
+    "name": "Medienarchiv der Künste - Zürcher Hochschule der Künste",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "Meetup",
+    "width": 308,
+    "height": 334
+  },
+  {
+    "name": "MixCloud",
+    "width": 100,
+    "height": 120
+  },
+  {
+    "name": "Music Box Maniacs",
+    "width": 360,
+    "height": 190
+  },
+  {
+    "name": "myBeweeg",
+    "width": 480,
+    "height": 400
+  },
+  {
+    "name": "nanoo.tv",
+    "width": 384,
+    "height": 216
+  },
+  {
+    "name": "Natural Atlas",
+    "width": 940,
+    "height": 470
+  },
+  {
+    "name": "nfb.ca",
+    "width": 530,
+    "height": 345
+  },
+  {
+    "name": "Ora TV",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "Orbitvu",
+    "width": 350,
+    "height": 300
+  },
+  {
+    "name": "Outplayed.tv",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Overflow",
+    "width": 600,
+    "height": 800
+  },
+  {
+    "name": "Pixdor",
+    "width": 429,
+    "height": 445
+  },
+  {
+    "name": "Lille.Pod",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "Podbean",
+    "width": 500,
+    "height": 100
+  },
+  {
+    "name": "Portfolium",
+    "width": 500,
+    "height": 500
+  },
+  {
+    "name": "posiXion",
+    "width": 620,
+    "height": 500
+  },
+  {
+    "name": "ReleaseWire",
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Replit",
+    "width": 800,
+    "height": 600
+  },
+  {
+    "name": "ReverbNation",
+    "width": 100,
+    "height": 500
+  },
+  {
+    "name": "RiffReporter",
+    "width": 440,
+    "height": 500
+  },
+  {
+    "name": "RoosterTeeth",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "Rumble",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Sapo Videos",
+    "width": 546,
+    "height": 360
+  },
+  {
+    "name": "Screen9",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Screencast.com",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "name": "ScribbleMaps",
+    "width": 720,
+    "height": 550
+  },
+  {
+    "name": "SendtoNews",
+    "width": 450,
+    "height": 278
+  },
+  {
+    "name": "ShortNote",
+    "width": 450,
+    "height": 258
+  },
+  {
+    "name": "Shoudio",
+    "width": 300,
+    "height": 454
+  },
+  {
+    "name": "Simplecast",
+    "width": 400,
+    "height": 200
+  },
+  {
+    "name": "SlideShare",
+    "width": 425,
+    "height": 355
+  },
+  {
+    "name": "SmashNotes",
+    "width": 600,
+    "height": 500
+  },
+  {
+    "name": "SocialExplorer",
+    "width": 800,
+    "height": 600
+  },
+  {
+    "name": "Songlink",
+    "width": 560,
+    "height": 367
+  },
+  {
+    "name": "SoundCloud",
+    "width": 800,
+    "height": 400
+  },
+  {
+    "name": "Soundsgood",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "SpeakerDeck",
+    "width": 710,
+    "height": 532
+  },
+  {
+    "name": "Spotful",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "name": "Spotify",
+    "width": 300,
+    "height": 380
+  },
+  {
+    "name": "Streamable",
+    "width": 636,
+    "height": 360
+  },
+  {
+    "name": "StreamOneCloud",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "Sway",
+    "width": 760,
+    "height": 500
+  },
+  {
+    "name": "Ted",
+    "width": 560,
+    "height": 316
+  },
+  {
+    "name": "The New York Times",
+    "width": 300,
+    "height": 550
+  },
+  {
+    "name": "They Said So",
+    "width": 600,
+    "height": 400
+  },
+  {
+    "name": "TickCounter",
+    "width": 500,
+    "height": 125
+  },
+  {
+    "name": "Toornament",
+    "width": 640,
+    "height": 480
+  },
+  {
+    "name": "Tuxx",
+    "width": 100,
+    "height": 100
+  },
+  {
+    "name": "tvcf",
+    "width": 720,
+    "height": 480
+  },
+  {
+    "name": "Twitch",
+    "width": 500,
+    "height": 281
+  },
+  {
+    "name": "TypeCast",
+    "width": 400,
+    "height": 65
+  },
+  {
+    "name": "University of Cambridge Map",
+    "width": 500,
+    "height": 300
+  },
+  {
+    "name": "Ustream",
+    "width": 400,
+    "height": 320
+  },
+  {
+    "name": "VeeR VR",
+    "width": 480,
+    "height": 350
+  },
+  {
+    "name": "Vimeo",
+    "width": 480,
+    "height": 270
+  },
+  {
+    "name": "Viziosphere",
+    "width": 1024,
+    "height": 611
+  },
+  {
+    "name": "Vlipsy",
+    "width": 640,
+    "height": 360
+  },
+  {
+    "name": "VLIVE",
+    "width": 544,
+    "height": 306
+  },
+  {
+    "name": "VoxSnap",
+    "width": 700,
+    "height": 250
+  },
+  {
+    "name": "Wistia, Inc.",
+    "width": 960,
+    "height": 540
+  },
+  {
+    "name": "wizer.me",
+    "width": 800,
+    "height": 600
+  },
+  {
+    "name": "Wootled",
+    "width": 300,
+    "height": 250
+  },
+  {
+    "name": "Yes, I Know IT!",
+    "width": 672,
+    "height": 378
+  },
+  {
+    "name": "YouTube",
+    "width": 459,
+    "height": 344
+  },
+  {
+    "name": "ZnipeTV",
+    "width": 640,
+    "height": 360
+  }
+]

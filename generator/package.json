@@ -1,0 +1,11 @@
+{
+  "name": "generator",
+  "scripts": {
+    "generate": "node generator.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.12.20",
+    "node-fetch": "^2.6.0",
+    "yaml": "^1.6.0"
+  }
+}

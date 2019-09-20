@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import {id as pluginId} from './manifest';
-import {getOEmbedUrl} from './utils';
+import {getDimensionsForProvider, getOEmbedUrl, getProviderForUrl} from './utils';
 
 export default class OEmbed extends Component {
     constructor(props) {
@@ -9,6 +9,8 @@ export default class OEmbed extends Component {
 
         // eslint-disable-next-line react/prop-types
         this.oembedUrl = getOEmbedUrl(this.props.embed.url);
+        const provider = getProviderForUrl(this.props.embed.url);
+        this.dimensions = getDimensionsForProvider(provider.provider_name);
         this.state = {
             html: null,
             thumbnailUrl: null,
@@ -36,15 +38,24 @@ export default class OEmbed extends Component {
 
     render() {
         const {html, thumbnailUrl} = this.state;
+        const style = {
+            width: `${this.dimensions.width}px`,
+            height: `${this.dimensions.height}px`
+        }
 
+        let inner
         if (html) {
-            return <div dangerouslySetInnerHTML={{__html: html}}/>;
+            inner = <div dangerouslySetInnerHTML={{__html: html}}/>;
         }
 
         if (thumbnailUrl) {
-            return <img src={thumbnailUrl}/>;
+            inner = <img src={thumbnailUrl}/>;
         }
 
-        return null;
+        return (
+            <div style={style}>
+              {inner}
+            </div>
+        );
     }
 }

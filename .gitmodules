@@ -1,0 +1,3 @@
+[submodule "generator/oembed-spec"]
+	path = generator/oembed-spec
+	url = git@github.com:iamcal/oembed.git

@@ -58,11 +58,11 @@ async function processProviders(providers) {
             const data = await fetch(provider.example_url).then(parseResponse)
             const dimensions = getDimensions(data)
 
-            if ((typeof dimensions.width === 'number') && (typeof dimensions.height === 'number')) {
+            if ((typeof dimensions.width === 'number' && !isNaN(dimensions.width)) && (typeof dimensions.height === 'number' && !isNaN(dimensions.height))) {
                 providerDimensions.push({ name: provider.provider_name, ...dimensions })
                 console.log(`++ ${provider.provider_name}: ${dimensions.width}x${dimensions.height}`)
             } else {
-                console.log(`-- Couldn't parse dimensions for provider ${provider.provider_name}`)
+                console.warn(`-- Couldn't parse dimensions for provider ${provider.provider_name}`)
             }
         } catch (err) {
             console.error(`-- Couldn't process provider ${provider.provider_name}`)

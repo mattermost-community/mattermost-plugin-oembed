@@ -46,7 +46,7 @@ export default class OEmbed extends Component {
         const {html, thumbnailUrl} = this.state;
 
         if (this.dimensions === null) {
-            return <p>Plugin error: Invalid oEmbed provider dimensions</p>
+            return <p>{'Plugin error: Invalid oEmbed provider dimensions'}</p>;
         }
 
         const style = {

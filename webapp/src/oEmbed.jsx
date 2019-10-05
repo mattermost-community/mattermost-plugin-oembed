@@ -24,22 +24,25 @@ export default class OEmbed extends Component {
     }
 
     async componentDidMount() {
-        try {
-            const res = await (await fetch(`/plugins/${pluginId}/`, {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: this.oembedUrl,
-            })).json();
+        const options = {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: this.oembedUrl,
+        };
 
-            if (res.html) {
-                this.setState({html: res.html});
-            } else {
-                this.setState({thumbnailUrl: res.thumbnail_url});
-            }
-        } catch (err) {
-            // eslint-disable-next-line no-console
-            console.error(err);
-        }
+        fetch(`/plugins/${pluginId}/`, options).
+            then((res) => res.json()).
+            then((res) => {
+                if (res.html) {
+                    this.setState({html: res.html});
+                } else {
+                    this.setState({thumbnailUrl: res.thumbnail_url});
+                }
+            }).
+            catch((err) => {
+                // eslint-disable-next-line no-console
+                console.error(err);
+            });
     }
 
     render() {

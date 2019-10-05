@@ -54,9 +54,23 @@ export default class OEmbed extends Component {
             height: `${this.dimensions.height}px`,
         };
 
+        const iframeStyle = {
+            ...style,
+            border: 0,
+        };
+
         let inner;
         if (html) {
-            inner = <div dangerouslySetInnerHTML={{__html: html}}/>;
+            if (html.startsWith('<iframe')) {
+                inner = <div dangerouslySetInnerHTML={{__html: html}}/>;
+            } else {
+                inner = (
+                    <iframe
+                        style={iframeStyle}
+                        src={`data:text/html,${html}`}
+                    />
+                );
+            }
         }
 
         if (thumbnailUrl) {

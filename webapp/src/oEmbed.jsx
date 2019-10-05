@@ -23,7 +23,7 @@ export default class OEmbed extends Component {
         };
     }
 
-    async componentWillMount() {
+    async componentDidMount() {
         try {
             const res = await (await fetch(`/plugins/${pluginId}/`, {
                 method: 'POST',

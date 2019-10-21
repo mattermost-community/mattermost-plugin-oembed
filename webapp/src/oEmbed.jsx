@@ -23,7 +23,7 @@ export default class OEmbed extends Component {
         };
     }
 
-    async componentDidMount() {
+    componentDidMount() {
         const options = {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"sync"
 
@@ -20,9 +21,30 @@ type Plugin struct {
 	configuration *configuration
 }
 
-// ServeHTTP demonstrates a plugin that handles HTTP requests by greeting the world.
 func (p *Plugin) ServeHTTP(c *plugin.Context, w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hello, world!")
-}
+	urlBytes, _ := ioutil.ReadAll(r.Body)
+	url := string(urlBytes)
 
-// See https://developers.mattermost.com/extend/plugins/server/reference/
+	if url == "" {
+		w.WriteHeader(http.StatusNotFound)
+		return
+	}
+
+	resp, err := http.Get(url)
+	if err != nil {
+		fmt.Fprintf(w, "Error getting response from %s\n%s", url, err)
+		w.WriteHeader(http.StatusBadGateway)
+		return
+	}
+	defer resp.Body.Close()
+
+	respBody, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		fmt.Fprintf(w, "Error reading response from %s\n%s", url, err)
+		w.WriteHeader(http.StatusInternalServerError)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	w.Write(respBody)
+}

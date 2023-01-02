@@ -28,3 +28,4 @@ npm run generate
 the script will write a `provider-dimensions.json` file that you can
 use to replace the `webapp/src/provider-dimensions.json` file before
 building the plugin.
+test
